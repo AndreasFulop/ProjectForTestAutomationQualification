@@ -1,0 +1,224 @@
+{
+  "9c6720e6695706d8f84e4ff9d47306ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad74b3d841ddfc3",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/ad74b3d841ddfc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200587578,
+        "stop" : 1629200600155,
+        "duration" : 12577
+      }
+    } ]
+  },
+  "201703f7997833ab87b13fd223b6bd3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ded35abcbcc467e",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/6ded35abcbcc467e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200505200,
+        "stop" : 1629200510168,
+        "duration" : 4968
+      }
+    } ]
+  },
+  "a9e03ee86763c2628d48ab4f2ab6f789" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bfc9a68acacdccc",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/5bfc9a68acacdccc",
+      "status" : "failed",
+      "statusDetails" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Italok]>",
+      "time" : {
+        "start" : 1629200530102,
+        "stop" : 1629200552034,
+        "duration" : 21932
+      }
+    } ]
+  },
+  "39c9b366c8c51e064b238521171d200a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd8a0a0f2f9f7f70",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/cd8a0a0f2f9f7f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200600157,
+        "stop" : 1629200611644,
+        "duration" : 11487
+      }
+    } ]
+  },
+  "2bac80f8df7e312aaaf7897a3acfce70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0d02a94859fd728",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/a0d02a94859fd728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200572874,
+        "stop" : 1629200587575,
+        "duration" : 14701
+      }
+    } ]
+  },
+  "6534bf5684ee9dd3a347b515e2c22460" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "465c1ae5c3be0a81",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/465c1ae5c3be0a81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200565827,
+        "stop" : 1629200572871,
+        "duration" : 7044
+      }
+    } ]
+  },
+  "fa435d05458439d38ce06c3de6804b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b1a0a02c7e7e906",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/8b1a0a02c7e7e906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200500198,
+        "stop" : 1629200505135,
+        "duration" : 4937
+      }
+    } ]
+  },
+  "9c2f387c675c5d8af7df9b9bc0b018b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfa8ac1e541b69ff",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/dfa8ac1e541b69ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200514710,
+        "stop" : 1629200530099,
+        "duration" : 15389
+      }
+    } ]
+  },
+  "103e89cd4450ea3bce999d7d9a45cb4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "949403d0e0d48d9f",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/949403d0e0d48d9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200611647,
+        "stop" : 1629200627570,
+        "duration" : 15923
+      }
+    } ]
+  },
+  "38ca954bad53f728e38e074ac68c9717" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3be8a66d2610cf45",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/3be8a66d2610cf45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629200510173,
+        "stop" : 1629200514706,
+        "duration" : 4533
+      }
+    } ]
+  },
+  "cf4deb82be43ee4fdc2d456559183789" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d8ed4fcee7bc7a",
+      "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/7d8ed4fcee7bc7a",
+      "status" : "failed",
+      "statusDetails" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek]>",
+      "time" : {
+        "start" : 1629200552050,
+        "stop" : 1629200565821,
+        "duration" : 13771
+      }
+    } ]
+  }
+}

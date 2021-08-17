@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Italok]>",
+      "children" : [ {
+        "name" : "M-5.1 - Étlap bejárása1",
+        "uid" : "5bfc9a68acacdccc",
+        "parentUid" : "43dc0ef85a828904071b5fae6b3f061b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629200530102,
+          "stop" : 1629200552034,
+          "duration" : 21932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43dc0ef85a828904071b5fae6b3f061b"
+    }, {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek]>",
+      "children" : [ {
+        "name" : "M-5.2 - Étlap bejárása2",
+        "uid" : "7d8ed4fcee7bc7a",
+        "parentUid" : "c804f82bd8ad9771922d71fc40b8f368",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629200552050,
+          "stop" : 1629200565821,
+          "duration" : 13771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c804f82bd8ad9771922d71fc40b8f368"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

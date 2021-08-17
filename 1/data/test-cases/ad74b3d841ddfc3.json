@@ -1,0 +1,105 @@
+{
+  "uid" : "ad74b3d841ddfc3",
+  "name" : "M-9 - Rendelés módosítása",
+  "fullName" : "TestPage.testOrderDessertThenModify",
+  "historyId" : "9c6720e6695706d8f84e4ff9d47306ee",
+  "time" : {
+    "start" : 1629200587578,
+    "stop" : 1629200600155,
+    "duration" : 12577
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629200499885,
+      "stop" : 1629200500140,
+      "duration" : 255
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629200587579,
+      "stop" : 1629200587726,
+      "duration" : 147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629200599083,
+      "stop" : 1629200600155,
+      "duration" : 1072
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-876"
+  }, {
+    "name" : "thread",
+    "value" : "4436@fv-az28-876.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOrderDessertThenModify"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad74b3d841ddfc3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 11,
+    "retry" : 0
+  }
+} ]
