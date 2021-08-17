@@ -1,0 +1,1 @@
+{"uuid":"9c06c476-bc0f-4193-906b-aac9f6d45968","name":"testClickCookie()","children":["f2b73011-9d25-4d71-90b0-a3cc70a90929"],"befores":[{"name":"setDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628956341978,"stop":1628956343397}],"afters":[],"links":[],"start":1628956341898,"stop":1628956345002}

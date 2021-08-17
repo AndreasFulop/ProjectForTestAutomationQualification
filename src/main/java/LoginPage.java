@@ -1,0 +1,28 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+    WebDriver driver;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    private final By EMAIL_FIELD = By.name("email");
+    private final By PASSWORD_FIELD = By.name("customer_password");
+    private final By CONFIRM_LOGIN = By.name("ok");
+
+    public void login() {
+        write(EMAIL_FIELD, "fulopand@freemail.hu");
+        write(PASSWORD_FIELD, "mm331MMPL");
+        clicking(CONFIRM_LOGIN);
+    }
+
+    public void write(By by, String string) {
+        driver.findElement(by).sendKeys(string);
+    }
+
+    public void clicking(By by) {
+        driver.findElement(by).click();
+    }
+}
