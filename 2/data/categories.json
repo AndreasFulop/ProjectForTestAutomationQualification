@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció]>",
+      "children" : [ {
+        "name" : "M-5.1 - Étlap bejárása1",
+        "uid" : "49ba4450e48f6dca",
+        "parentUid" : "a5b6b13ce0355cde2d25ac9668661b2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629201087511,
+          "stop" : 1629201102941,
+          "duration" : 15430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5b6b13ce0355cde2d25ac9668661b2f"
+    }, {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]>",
+      "children" : [ {
+        "name" : "M-5.2 - Étlap bejárása2",
+        "uid" : "9740891261216736",
+        "parentUid" : "419209fb858c30c5e853aea101f038e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629201102952,
+          "stop" : 1629201134532,
+          "duration" : 31580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "419209fb858c30c5e853aea101f038e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0525376;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.240', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.YdyV5p}, goog:chromeOptions: {debuggerAddress: localhost:34999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 86b5431185365c08ca9752d6ecfe4b81",
+      "children" : [ {
+        "name" : "M-7 - Fájlban összeírt rendelés feladása",
+        "uid" : "35bb9f256c79d4a4",
+        "parentUid" : "8ae05dfc99f75b1c7f250ed89f2cc99e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629201193917,
+          "stop" : 1629201207551,
+          "duration" : 13634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ae05dfc99f75b1c7f250ed89f2cc99e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
