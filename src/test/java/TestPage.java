@@ -255,9 +255,9 @@ public class TestPage {
         mainPage.clickRegistration();
         Registration registration = new Registration(driver);
         registration.registrating();
-        Thread.sleep(2000);
-        String actual = mainPage.getRegistratedUserName();
-        Assertions.assertEquals(" Belépve:", actual);
+        Thread.sleep(200);
+        String actual = mainPage.getUserName();
+        Assertions.assertEquals("Test Customer", actual);
     }
 
     @Test
