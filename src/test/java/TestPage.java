@@ -236,7 +236,7 @@ public class TestPage {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Disabled
+    @Test
     @DisplayName("M-1 - Regisztráció")
     @Order(1)
     @Severity(SeverityLevel.CRITICAL)

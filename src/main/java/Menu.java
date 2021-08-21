@@ -36,7 +36,7 @@ public class Menu {
         List<WebElement> menuItems = util.finds(MENU_ITEMS);
         Actions action = new Actions(driver);
         List<String> result = new ArrayList<>();
-        for (int j = 1; j <= menuItems.size(); j++) {
+        for (int j = 1; j <= 16; j++) {
             System.out.print(menuItems.size()+"/"+j);
             WebElement live = util.find(MENU_ID);   //important to be in the loop
             action.moveToElement(live).build().perform();
@@ -55,7 +55,7 @@ public class Menu {
         List<WebElement> menuItems2 = util.finds(MENU_BUTTONS);
         System.out.println(menuItems2.size());
         List<String> result = new ArrayList<>();
-        for (int j = 1; j <= menuItems2.size()/3; j++) {
+        for (int j = 1; j <= 16; j++) {
             util.click(By.xpath(MENU_BUTTON_NAME + "[" + j + "]"));
             Thread.sleep(300);
             try {
