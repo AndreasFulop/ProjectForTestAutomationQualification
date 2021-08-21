@@ -18,21 +18,17 @@ public class Registration {
 
 
     public void registrating() {
+        Util util = new Util(driver);
         write(EMAIL_FIELD, "natan78@freemail.hu");
         write(PASSWORD_FIELD, "Coool123");
         write(NAME_FIELD, "Test Customer");
         write(PHONE_FIELD, "20/1234567");
-        clicking(ASZF_CHECK);
-        clicking(DATAPROT_CHECK);
-        clicking(CONFIRM_REGISTRATION);
+        util.click(ASZF_CHECK);
+        util.click(DATAPROT_CHECK);
+        util.click(CONFIRM_REGISTRATION);
     }
 
     public void write(By by, String string) {
         driver.findElement(by).sendKeys(string);
     }
-
-    public void clicking(By by) {
-        driver.findElement(by).click();
-    }
-
 }

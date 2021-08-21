@@ -36,7 +36,6 @@ public class TestPage {
         options.addArguments("window-size=1200,730");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
-        // driver.manage().window().maximize();
 
     }
 
@@ -49,8 +48,8 @@ public class TestPage {
         MainPage mainPage = new MainPage(driver);
         DataProtection dataProtection = new DataProtection(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ADATVEDELEM).click();
-        String actual = driver.findElement(dataProtection.ADATVEDELEM_TITLE).getText();
+        mainPage.clickDataprotectionPage();
+        String actual = dataProtection.getDataprotectionTitle();
         Assertions.assertEquals("Adatkezelési Tájékoztató", actual);
     }
 
@@ -62,7 +61,7 @@ public class TestPage {
         MainPage mainPage = new MainPage(driver);
         DataProtection dataProtection = new DataProtection(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ADATVEDELEM).click();
+        mainPage.clickDataprotectionPage();
         dataProtection.dataProtectionReader();
         List<String> contentOfTable = new ArrayList<>();
         contentOfTable.add("I. A Felhasználók által kifejezetten megadott adatok kezelése");
@@ -82,7 +81,7 @@ public class TestPage {
         MainPage mainPage = new MainPage(driver);
         Menu menu = new Menu(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         List<String> actual = menu.clickNextMenuPageByDropdown();
         List<String> expected = new ArrayList<>();
         expected.add("Akció");
@@ -112,7 +111,7 @@ public class TestPage {
         MainPage mainPage = new MainPage(driver);
         Menu menu = new Menu(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         List<String> actual = menu.clickNextMenuPageByButtons();
         List<String> expected = new ArrayList<>();
         expected.add("Akció");
@@ -141,7 +140,7 @@ public class TestPage {
     public void testOrderDessert() throws InterruptedException{
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         Menu menu = new Menu(driver);
         menu.orderDessert("Nutellás Golyó", 2);
         Thread.sleep(200);
@@ -150,20 +149,6 @@ public class TestPage {
         Assertions.assertEquals(expected, actual);
     }
 
-/*    @Test
-    @DisplayName("M-6 - Rendelés2")
-    @Severity(SeverityLevel.CRITICAL)
-    public void testOrderDessert2() throws InterruptedException{
-        MainPage mainPage = new MainPage(driver);
-        mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
-        Menu menu = new Menu(driver);
-        menu.seeBasket();
-        String actual = menu.seeBasket();
-        String expected = "";
-        Assertions.assertEquals(expected, actual);
-    }*/
-
     @Test
     @DisplayName("M-10 - Rendelés törlése")
     @Order(9)
@@ -171,16 +156,11 @@ public class TestPage {
     public void testOrderDessertThenDelete() throws InterruptedException{
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         Menu menu = new Menu(driver);
         menu.orderDessert("Aranygaluska", 2);
-   //     Thread.sleep(500);
         menu.deleteBasket();
- //       Thread.sleep(500);
         String expected2 = "";
-      //  driver.findElement(menu.BASKET).click();
-      //  List<WebElement> tablerows = driver.findElements(menu.TABLEROWS_IN_BASKET);
-      //  driver.findElement(menu.CLOSE_BASKET_WINDOW).click();
         String actual2 = menu.seeBasket();
         Assertions.assertEquals(expected2, actual2);
     }
@@ -192,16 +172,13 @@ public class TestPage {
     public void testOrderDessertThenModify() throws InterruptedException{
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         Menu menu = new Menu(driver);
         menu.orderDessert("Aranygaluska", 2);
-  //      Thread.sleep(300);
         String actual = menu.seeBasket();
         String expected = "2db Aranygaluska";
         Assertions.assertEquals(expected, actual);
-   //     Thread.sleep(500);
         menu.deleteBasket();
-  //      Thread.sleep(200);
         menu.orderDessert("Kókuszos palacsinta", 4);
         String actual2 = menu.seeBasket();
         String expected2 = "4db Kókuszos palacsinta";
@@ -215,10 +192,10 @@ public class TestPage {
     public void testOrderAndWrite() throws InterruptedException, IOException {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         Menu menu = new Menu(driver);
-        menu.orderDessert("Kakaós palacsinta", 6);
         menu.orderDessert("Aranygaluska", 3);
+        menu.orderDessert("Kakaós palacsinta", 6);
         menu.orderDessert("Nutellás Golyó", 1);
         String orderList = menu.seeBasket();
         FileWriter myWriter = new FileWriter("menu.txt");
@@ -230,10 +207,10 @@ public class TestPage {
     @DisplayName("M-7 - Fájlban összeírt rendelés feladása")
     @Order(12)
     @Severity(SeverityLevel.NORMAL)
-    public void testOrderFromFile() throws InterruptedException, IOException {
+    public void testOrderFromFile() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
-        driver.findElement(mainPage.ETLAP_BUTTON).click();
+        mainPage.clickMenuPage();
         Menu menu = new Menu(driver);
         String actual = "";
         String expected = "";
@@ -267,9 +244,9 @@ public class TestPage {
         mainPage.clickCookie();
         mainPage.clickRegistration();
         Registration registration = new Registration(driver);
-    //    registration.registrating();
+        registration.registrating();
         Thread.sleep(2000);
-        String actual = driver.findElement(mainPage.LOGGED_USERNAME).getText();
+        String actual = mainPage.getUserName();
         Assertions.assertEquals("Fülöp András", actual);
     }
 
@@ -284,33 +261,27 @@ public class TestPage {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login();
         Thread.sleep(200);
-        String actual = driver.findElement(mainPage.LOGGED_USERNAME).getText();
+        String actual = mainPage.getUserName();
         Assertions.assertEquals("Fülöp András", actual);
     }
-
 
     @Test
     @DisplayName("M-11 - Kijelentkezés")
     @Order(3)
     @Severity(SeverityLevel.CRITICAL)
-    public void testLogout() throws InterruptedException{
+    public void testLogout() {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
         mainPage.clickLogin();
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login();
-  //      Thread.sleep(3000);
         mainPage.clickLogout();
-        String actual = driver.findElement(mainPage.BELEPES_BUTTON).getText();
+        String actual = mainPage.getLoginText();
         Assertions.assertEquals("Belépés", actual);
-
     }
 
         @AfterEach
-    public void closing()
-           throws InterruptedException
-    {
-            Thread.sleep(1000);
+    public void closing() {
         if (driver != null) {
             driver.quit();
         }

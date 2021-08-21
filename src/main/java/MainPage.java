@@ -9,32 +9,53 @@ public class MainPage {
         driver.navigate().to("https://www.megamegallo.hu/");
     }
 
-    public final By COOKIE = By.className("accept_cookie");
-    public final By ADATVEDELEM = By.id("dataprotection_info");
-    public final By ETLAP_BUTTON = By.id("li_animated_link_menucard");
+    private final By COOKIE = By.className("accept_cookie");
+    private final By ADATVEDELEM_PAGE = By.id("dataprotection_info");
+    private final By MENU_BUTTON = By.id("li_animated_link_menucard");
     private final By REGISTRATION = By.id("animated_link_registrati");
     private final By LOGIN_PAGE = By.id("animated_link_login");
     private final By LOGOUT = By.xpath("//*[@id=\"container_frame2\"]/header/div[1]/div/div/div[1]/ul/li[8]/a");
 
- //   public final By LOGGED_USERNAME = By.xpath("//*[@id=\"flat\"]/div[2]");
-    public final By LOGGED_USERNAME = By.className("profile_name");
-    public final By BELEPES_BUTTON = By.id("mli_animated_link_login");
+    private final By LOGGED_USERNAME = By.className("profile_name");
+    private final By BELEPES_BUTTON = By.id("mli_animated_link_login");
+
 
     public void clickCookie() {
-        driver.findElement(COOKIE).click();
-       // Util.click(COOKIE);
+        Util util = new Util(driver);
+        util.click(COOKIE);
     }
 
     public void clickLogin() {
-        driver.findElement(LOGIN_PAGE).click();
+        Util util = new Util(driver);
+        util.click(LOGIN_PAGE);
     }
 
     public void clickLogout() {
-        driver.findElement(LOGOUT).click();
+        Util util = new Util(driver);
+        util.click(LOGOUT);
     }
 
     public void clickRegistration() {
-        driver.findElement(REGISTRATION).click();
+        Util util = new Util(driver);
+        util.click(REGISTRATION);
     }
 
+    public void clickDataprotectionPage() {
+        Util util = new Util(driver);
+        util.click(ADATVEDELEM_PAGE);
+    }
+    public void clickMenuPage() {
+        Util util = new Util(driver);
+        util.click(MENU_BUTTON);
+    }
+
+    public String getUserName() {
+        Util util = new Util(driver);
+        return util.getText(LOGGED_USERNAME);
+    }
+
+    public String getLoginText() {
+        Util util = new Util(driver);
+        return util.getText(BELEPES_BUTTON);
+    }
 }

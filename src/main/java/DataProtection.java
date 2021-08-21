@@ -13,9 +13,18 @@ public class DataProtection {
         this.driver = driver;
     }
 
-    public final By ADATVEDELEM_TITLE = By.xpath("//*[@id=\"global_information\"]/h1");
-    private final By ADATVEDELEM_H2 = By.xpath("//*[@id=\"global_information\"]/h2");
+    private final By DATAPROTECTION_TITLE = By.xpath("//*[@id=\"global_information\"]/h1");
+    private final By DATAPROTECTION_H2 = By.xpath("//*[@id=\"global_information\"]/h2");
 
+    public List<WebElement> dataprotectionH2() {
+        Util util = new Util(driver);
+        return util.finds(DATAPROTECTION_H2);
+    }
+
+    public String getDataprotectionTitle() {
+        Util util = new Util(driver);
+        return util.getText(DATAPROTECTION_TITLE);
+    }
 
     public List<String> dataProtectionReader() throws InterruptedException{
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -25,7 +34,7 @@ public class DataProtection {
         i++;
         Thread.sleep(200);
         }
-        List<WebElement> content = driver.findElements(ADATVEDELEM_H2);
+        List<WebElement> content = dataprotectionH2();
         List<String> result = new ArrayList<>();
         for (WebElement j: content) {
             result.add(j.getText());

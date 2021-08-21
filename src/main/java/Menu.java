@@ -1,5 +1,4 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -20,57 +19,50 @@ public class Menu {
     private final String MENU_NAME = "//*[@id=\"li_animated_link_menucard\"]/ul/li";
     private final By MENU_BUTTONS = By.className("menu_type");
     private final String MENU_BUTTON_NAME = "//*[@class=\"menu_type\"]";
+    private final By DESSERT_BUTTON = By.xpath("//*[@class=\"menu_type\"][14]");
 
-    private final By ORDERABLE_MEALS = By.xpath("//*[@id=\"food_dring_size\"]/a");
-  //  private final By CONFIRM_ORDER = By.id("block_bill_button");
-    private final By CONFIRM_ORDER = By.xpath("//*[@id=\"block_bill_button\"]");
+    private final By CONFIRM_ORDER = By.id("block_bill_button");
     private final By PIECES_SELECTOR = By.xpath("//*[@id=\"ammount\"]/div/select");
 
-    public final By BASKET = By.xpath("//*[@id=\"centertop_column\"]/div[2]/p[1]/img");
-    private final By AMOUNT_IN_BASKET = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[2]/td[2]/div");
-    private final By AMOUNT_IN_BASKET2 = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[5]/td[2]/div");
-    private final By AMOUNT_IN_BASKET3 = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[8]/td[2]/div");
-    public final By TABLEROWS_IN_BASKET = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr");
-    private final By ORDER_IN_BASKET = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[2]/td[3]/div/b");
-    private final By ORDER_IN_BASKET2 = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[5]/td[3]/div/b");
-    private final By ORDER_IN_BASKET3 = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[8]/td[3]/div/b");
+    private final By BASKET = By.xpath("//*[@id=\"centertop_column\"]/div[2]/p[1]/img");
+    private final By TABLEROWS_IN_BASKET = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr");
     private final By DELETE_ORDER = By.xpath("//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[2]/td[4]/div/a");
-    //private final By DELETE_ORDER = By.className("fas fa-times-circle redstyle");
-   // public final By CLOSE_BASKET_WINDOW = By.id("close_minibasket_btn");
-  //  public final By CLOSE_BASKET_WINDOW = By.xpath("//*[@id=\"not_fixed\"]/div[1]");
-    public final By CLOSE_BASKET_WINDOW = By.xpath("//input[@type='button']");
+    public final By CLOSE_BASKET_WINDOW = By.id("close_minibasket_btn");
+    private final By TEMP = By.xpath("//*[@id=\"food_type_name_center\"]/h1");
+    private final By TABLE_ID= By.id("tableId");
 
     public List<String> clickNextMenuPageByDropdown() throws InterruptedException {
-        List<WebElement> menuItems = driver.findElements(MENU_ITEMS);
-//        System.out.println(menuItems.size());
+        Util util = new Util(driver);
+        List<WebElement> menuItems = util.finds(MENU_ITEMS);
         Actions action = new Actions(driver);
         List<String> result = new ArrayList<>();
-        for (int j = 1; j <= menuItems.size()/2; j++) {
-            WebElement live = driver.findElement(MENU_ID);   //important to be in the loop
+        for (int j = 1; j <= menuItems.size(); j++) {
+            System.out.print(menuItems.size()+"/"+j);
+            WebElement live = util.find(MENU_ID);   //important to be in the loop
             action.moveToElement(live).build().perform();
             Thread.sleep(200);
-            driver.findElement(By.xpath(MENU_NAME + "[" + j + "]")).click();
+            util.click(By.xpath(MENU_NAME + "[" + j + "]"));
             Thread.sleep(300);
-            String temp = driver.findElement(By.xpath("//*[@id=\"food_type_name_center\"]/h1")).getText();
+            String temp = util.getText(TEMP);
             result.add(temp);
+            System.out.println(" - done");
         }
         return result;
     }
 
     public List<String> clickNextMenuPageByButtons() throws InterruptedException {
-        List<WebElement> menuItems2 = driver.findElements(MENU_BUTTONS);
+        Util util = new Util(driver);
+        List<WebElement> menuItems2 = util.finds(MENU_BUTTONS);
         System.out.println(menuItems2.size());
-//        for (WebElement q:menuItems2) {System.out.println(q.getText());}
         List<String> result = new ArrayList<>();
         for (int j = 1; j <= menuItems2.size()/3; j++) {
-//            System.out.println(menuItems2.size() + "\n");
-            driver.findElement(By.xpath(MENU_BUTTON_NAME + "[" + j + "]")).click();
+            util.click(By.xpath(MENU_BUTTON_NAME + "[" + j + "]"));
             Thread.sleep(300);
             try {
-                String temp = driver.findElement(By.xpath("//*[@id=\"food_type_name_center\"]/h1")).getText();
+                String temp = util.getText(TEMP);
                 result.add(temp);
             } catch (Exception e) {
-                String temp = driver.findElement(By.id("tableId")).getText();
+                String temp = util.getText(TABLE_ID);
                 result.add(temp);
                 System.out.println(temp + " - " + e);
             }
@@ -79,56 +71,42 @@ public class Menu {
     }
 
     public void orderDessert(String order, int amount) throws InterruptedException{
+        Util util = new Util(driver);
         Thread.sleep(500);
-     //   JavascriptExecutor js = (JavascriptExecutor)driver;
-     //   js.executeScript("arguments[0].click();",driver.findElement(By.xpath("//*[@class=\"menu_type\"][14]")));
-        driver.findElement(By.xpath("//*[@class=\"menu_type\"][14]")).click();
-/*        List<WebElement> dessertList = driver.findElements(By.xpath("//*[@class=\"foods_desszertek subtypes\"]"));
-        List<String> temp = new ArrayList<>();
-        for (int i = 0; i<dessertList.size();i++) {
-            temp.add(dessertList.get(i).getText());
-            if (temp.get(i).contains(order)) {
-                Thread.sleep(200);*/
-                String title = "a[title = 'Mega Megálló - " + order + " - Desszert - Online rendelés']";
-                Thread.sleep(200);
-      //  js.executeScript("arguments[0].click();",driver.findElement(By.cssSelector(title)));
-                driver.findElement(By.cssSelector(title)).click();
-           //     break;
-           // }
-     //   }
+        util.click(DESSERT_BUTTON);
+        String title = "a[title = 'Mega Megálló - " + order + " - Desszert - Online rendelés']";
+        Thread.sleep(200);
+        util.click(By.cssSelector(title));
         Thread.sleep(300);
-        Select select = new Select(driver.findElement(PIECES_SELECTOR));
+        Select select = new Select(util.find(PIECES_SELECTOR));
         select.selectByValue(Integer.toString(amount));
         Thread.sleep(300);
-        driver.findElement(CONFIRM_ORDER).click();
-   //     return seeBasket();
+        util.click(CONFIRM_ORDER);
     }
 
 
     public void deleteBasket() throws InterruptedException{
-        driver.findElement(BASKET).click();
-        driver.findElement(DELETE_ORDER).click();
+        Util util = new Util(driver);
+        util.click(BASKET);
+        util.click(DELETE_ORDER);
         Thread.sleep(1000);
-        driver.findElement(CLOSE_BASKET_WINDOW).click();
+        util.click(CLOSE_BASKET_WINDOW);
     }
 
     public String seeBasket() throws InterruptedException{
-        driver.findElement(BASKET).click();
+        Util util = new Util(driver);
+        util.click(BASKET);
         Thread.sleep(300);
-        List<WebElement> tablerows = driver.findElements(TABLEROWS_IN_BASKET);
+        List<WebElement> tablerows = util.finds(TABLEROWS_IN_BASKET);
         String result = "";
         if (tablerows.size() > 0) {
             for (int i = 3; i <= tablerows.size(); i+=3) {
-                String resultPath = "//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[" + Integer.toString(i-1) + "]/td[2]/div";
-                String resultPath2 = "//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[" + Integer.toString(i-1) + "]/td[3]/div/b";
-                result += driver.findElement(By. xpath(resultPath)).getText() + " " + driver.findElement(By.xpath(resultPath2)).getText() + "\n";
+                String resultPath = "//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[" + (i-1) + "]/td[2]/div";
+                String resultPath2 = "//*[@id=\"not_fixed\"]/div/form/table/tbody/tr[" + (i-1) + "]/td[3]/div/b";
+                result += util.getText(By.xpath(resultPath)) + " " + util.getText(By.xpath(resultPath2)) + "\n";
             }
         }
-  //          Actions ac = new Actions(driver);
- //           WebElement live = driver.findElement(CLOSE_BASKET_WINDOW);
-//            ac.moveToElement(live).build().perform();
-//            ac.doubleClick(live).perform();
-        driver.findElement(CLOSE_BASKET_WINDOW).click();
+        util.click(CLOSE_BASKET_WINDOW);
         Thread.sleep(500);
         tablerows.clear();
         if (!result.equals("")) {

@@ -13,16 +13,13 @@ public class LoginPage {
     private final By CONFIRM_LOGIN = By.name("ok");
 
     public void login() {
+        Util util = new Util(driver);
         write(EMAIL_FIELD, "fulopand@freemail.hu");
         write(PASSWORD_FIELD, "mm331MMPL");
-        clicking(CONFIRM_LOGIN);
+        util.click(CONFIRM_LOGIN);
     }
 
     public void write(By by, String string) {
         driver.findElement(by).sendKeys(string);
-    }
-
-    public void clicking(By by) {
-        driver.findElement(by).click();
     }
 }
