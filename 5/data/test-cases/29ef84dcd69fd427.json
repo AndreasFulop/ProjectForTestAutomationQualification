@@ -1,0 +1,152 @@
+{
+  "uid" : "29ef84dcd69fd427",
+  "name" : "M-6 - Rendelés",
+  "fullName" : "TestPage.testOrderDessert",
+  "historyId" : "6534bf5684ee9dd3a347b515e2c22460",
+  "time" : {
+    "start" : 1629552775593,
+    "stop" : 1629552781642,
+    "duration" : 6049
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629552709415,
+      "stop" : 1629552709757,
+      "duration" : 342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629552775594,
+      "stop" : 1629552775733,
+      "duration" : 139
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629552781572,
+      "stop" : 1629552781642,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-683"
+  }, {
+    "name" : "thread",
+    "value" : "4236@fv-az39-683.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOrderDessert"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "44ede1182b585344",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/4//#testresult/44ede1182b585344",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551693959,
+          "stop" : 1629551700027,
+          "duration" : 6068
+        }
+      }, {
+        "uid" : "a9292f9c389fa500",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/3//#testresult/a9292f9c389fa500",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629550955630,
+          "stop" : 1629550962737,
+          "duration" : 7107
+        }
+      }, {
+        "uid" : "36ac5749518c2920",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/2//#testresult/36ac5749518c2920",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629201134541,
+          "stop" : 1629201144922,
+          "duration" : 10381
+        }
+      }, {
+        "uid" : "465c1ae5c3be0a81",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/465c1ae5c3be0a81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629200565827,
+          "stop" : 1629200572871,
+          "duration" : 7044
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "29ef84dcd69fd427.json",
+  "parameterValues" : [ ]
+}

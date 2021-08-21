@@ -1,0 +1,153 @@
+{
+  "uid" : "c9e761c87b6e4cfc",
+  "name" : "M-7 - Fájlban összeírt rendelés feladása",
+  "fullName" : "TestPage.testOrderFromFile",
+  "historyId" : "103e89cd4450ea3bce999d7d9a45cb4f",
+  "time" : {
+    "start" : 1629552817228,
+    "stop" : 1629552831169,
+    "duration" : 13941
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629552709415,
+      "stop" : 1629552709757,
+      "duration" : 342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629552817228,
+      "stop" : 1629552817384,
+      "duration" : 156
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629552831098,
+      "stop" : 1629552831169,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-683"
+  }, {
+    "name" : "thread",
+    "value" : "4236@fv-az39-683.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOrderFromFile"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2633d7c86eea454",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/4//#testresult/2633d7c86eea454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551729772,
+          "stop" : 1629551743647,
+          "duration" : 13875
+        }
+      }, {
+        "uid" : "95f4efc691d477d8",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/3//#testresult/95f4efc691d477d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551001555,
+          "stop" : 1629551016300,
+          "duration" : 14745
+        }
+      }, {
+        "uid" : "35bb9f256c79d4a4",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/2//#testresult/35bb9f256c79d4a4",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0525376;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.240', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.YdyV5p}, goog:chromeOptions: {debuggerAddress: localhost:34999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 86b5431185365c08ca9752d6ecfe4b81",
+        "time" : {
+          "start" : 1629201193917,
+          "stop" : 1629201207551,
+          "duration" : 13634
+        }
+      }, {
+        "uid" : "949403d0e0d48d9f",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/949403d0e0d48d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629200611647,
+          "stop" : 1629200627570,
+          "duration" : 15923
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c9e761c87b6e4cfc.json",
+  "parameterValues" : [ ]
+}

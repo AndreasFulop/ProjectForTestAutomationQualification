@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "M-2 - Bejelentkezés",
+    "uid" : "9730ebba03cfe2c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552709800,
+      "stop" : 1629552713752,
+      "duration" : 3952
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-11 - Kijelentkezés",
+    "uid" : "b7a877fa899697d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552713853,
+      "stop" : 1629552717908,
+      "duration" : 4055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-3 - Adatkezelési Nyilatkozat",
+    "uid" : "438b3f8f596f9212",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552717915,
+      "stop" : 1629552721709,
+      "duration" : 3794
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-4 - Listázás",
+    "uid" : "2562137e7ee282c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552721712,
+      "stop" : 1629552735391,
+      "duration" : 13679
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-5.1 - Étlap bejárása1",
+    "uid" : "b87f8ca3ab2df5ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629552735395,
+      "stop" : 1629552762802,
+      "duration" : 27407
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-5.2 - Étlap bejárása2",
+    "uid" : "24aa062424b9740d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1629552762814,
+      "stop" : 1629552775582,
+      "duration" : 12768
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-6 - Rendelés",
+    "uid" : "29ef84dcd69fd427",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552775593,
+      "stop" : 1629552781642,
+      "duration" : 6049
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-10 - Rendelés törlése",
+    "uid" : "3ff95301b5a2490a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552781645,
+      "stop" : 1629552795419,
+      "duration" : 13774
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-9 - Rendelés módosítása",
+    "uid" : "9f9b0ab3d8cbb0f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552795422,
+      "stop" : 1629552806665,
+      "duration" : 11243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-8 Rendelési adat mentése fájlba",
+    "uid" : "b5cfa6119dc5f3a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552806668,
+      "stop" : 1629552817225,
+      "duration" : 10557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-7 - Fájlban összeírt rendelés feladása",
+    "uid" : "c9e761c87b6e4cfc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629552817228,
+      "stop" : 1629552831169,
+      "duration" : 13941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
