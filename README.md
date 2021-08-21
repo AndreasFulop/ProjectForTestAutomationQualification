@@ -1,7 +1,7 @@
-This is the projectwork for my Test Automation Qualification This contains automated tests of the Megamegálló company (https://www.megamegallo.hu/).
+Ez a projekt az Újratervezés program keretében kiírt Automata tesztelői szakképesítés megszerzéséhez szükséges projektmunka, amely a Megamegálló cég (https://www.megamegallo.hu/) honlapjának automatikus tesztjeit tartalmazza.
 
-This program works only between 10:00-21:00!
+A tesztek kizárólag rendelési időben, azaz 10:00-21:00 között működnek!
 
-Link to the test cases: https://docs.google.com/spreadsheets/d/1qka0DSASdGqx1MW4azqyAfV6AsqUk0F-9ZHC40vQ7Ik/edit?usp=sharing
+Link a tesztesetekhez: https://docs.google.com/spreadsheets/d/1qka0DSASdGqx1MW4azqyAfV6AsqUk0F-9ZHC40vQ7Ik/edit?usp=sharing
 
-Link to the report: https://andreasfulop.github.io/ProjectForTestAutomationQualification/
+Link az online riporthoz: https://andreasfulop.github.io/ProjectForTestAutomationQualification/
