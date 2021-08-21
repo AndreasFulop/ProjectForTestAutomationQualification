@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TestPage",
+    "children" : [ {
+      "name" : "M-2 - Bejelentkezés",
+      "uid" : "69c89a5da6bc73ca",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551628816,
+        "stop" : 1629551632402,
+        "duration" : 3586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-11 - Kijelentkezés",
+      "uid" : "fde1cb9d3bb31f50",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551632464,
+        "stop" : 1629551636269,
+        "duration" : 3805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-3 - Adatkezelési Nyilatkozat",
+      "uid" : "865630a0e561bfd8",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551636273,
+        "stop" : 1629551639805,
+        "duration" : 3532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-4 - Listázás",
+      "uid" : "de5c2fcbe702ccb1",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551639808,
+        "stop" : 1629551652960,
+        "duration" : 13152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-5.1 - Étlap bejárása1",
+      "uid" : "1780dde89a9ac3a7",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629551652964,
+        "stop" : 1629551680356,
+        "duration" : 27392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-5.2 - Étlap bejárása2",
+      "uid" : "860cb861a9103138",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629551680367,
+        "stop" : 1629551693948,
+        "duration" : 13581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-6 - Rendelés",
+      "uid" : "44ede1182b585344",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551693959,
+        "stop" : 1629551700027,
+        "duration" : 6068
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-10 - Rendelés törlése",
+      "uid" : "6f1215a7c3ec729f",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629551700030,
+        "stop" : 1629551707713,
+        "duration" : 7683
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-9 - Rendelés módosítása",
+      "uid" : "c3ec4662251a30d3",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551707716,
+        "stop" : 1629551719146,
+        "duration" : 11430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-8 Rendelési adat mentése fájlba",
+      "uid" : "ab5904158f52c66",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551719149,
+        "stop" : 1629551729769,
+        "duration" : 10620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "M-7 - Fájlban összeírt rendelés feladása",
+      "uid" : "2633d7c86eea454",
+      "parentUid" : "062d34ee07c3c8e390afe71301e03f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629551729772,
+        "stop" : 1629551743647,
+        "duration" : 13875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "062d34ee07c3c8e390afe71301e03f00"
+  } ],
+  "name" : "suites"
+}
