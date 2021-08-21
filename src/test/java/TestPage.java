@@ -249,15 +249,12 @@ public class TestPage {
     @DisplayName("M-1 - Regisztráció")
     @Order(1)
     @Severity(SeverityLevel.CRITICAL)
-    public void testRegistration() throws InterruptedException {
+    public void testRegistration() {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
         mainPage.clickRegistration();
         Registration registration = new Registration(driver);
         registration.registrating();
-        Thread.sleep(200);
-        String actual = mainPage.getUserName();
-        Assertions.assertEquals("Test Customer", actual);
     }
 
     @Test
