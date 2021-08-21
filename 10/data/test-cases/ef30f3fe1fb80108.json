@@ -1,0 +1,156 @@
+{
+  "uid" : "ef30f3fe1fb80108",
+  "name" : "M-1 - Regisztráció",
+  "fullName" : "TestPage.testRegistration",
+  "historyId" : "aabb5b0b62ac574b62a088066c0c55b5",
+  "time" : {
+    "start" : 1629560389052,
+    "stop" : 1629560393233,
+    "duration" : 4181
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629560388632,
+      "stop" : 1629560388985,
+      "duration" : 353
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629560389057,
+      "stop" : 1629560389544,
+      "duration" : 487
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629560393144,
+      "stop" : 1629560393223,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-516"
+  }, {
+    "name" : "thread",
+    "value" : "4468@fv-az28-516.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4bce2ee037726490",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/9//#testresult/4bce2ee037726490",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".profile_name\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.1.195', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FUCdvB}, goog:chromeOptions: {debuggerAddress: localhost:45713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0f178efa32102c484c2d027965f5a3ac\n*** Element info: {Using=class name, value=profile_name}",
+        "time" : {
+          "start" : 1629559556422,
+          "stop" : 1629559568083,
+          "duration" : 11661
+        }
+      }, {
+        "uid" : "81f44428d7915ed0",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/8//#testresult/81f44428d7915ed0",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".user_belepve_mm\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.25', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.jNPTZ6}, goog:chromeOptions: {debuggerAddress: localhost:33757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 84f6c51c8788b91009e2bf252c945ad0\n*** Element info: {Using=class name, value=user_belepve_mm}",
+        "time" : {
+          "start" : 1629558059053,
+          "stop" : 1629558072418,
+          "duration" : 13365
+        }
+      }, {
+        "uid" : "9c113628f8b6b20",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/7//#testresult/9c113628f8b6b20",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".profile_name\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.lGTUqJ}, goog:chromeOptions: {debuggerAddress: localhost:43259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8d197fd651529943c2c752a481b6f2ab\n*** Element info: {Using=class name, value=profile_name}",
+        "time" : {
+          "start" : 1629556840732,
+          "stop" : 1629556854412,
+          "duration" : 13680
+        }
+      }, {
+        "uid" : "3d891b9abedd96fd",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/6//#testresult/3d891b9abedd96fd",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".profile_name\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-941', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.h0VhMA}, goog:chromeOptions: {debuggerAddress: localhost:37365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ba36bdb99b89e38f1ce384597f71651a\n*** Element info: {Using=class name, value=profile_name}",
+        "time" : {
+          "start" : 1629553284166,
+          "stop" : 1629553297800,
+          "duration" : 13634
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef30f3fe1fb80108.json",
+  "parameterValues" : [ ]
+}

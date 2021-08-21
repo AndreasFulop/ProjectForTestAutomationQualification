@@ -1,0 +1,121 @@
+[ {
+  "uid" : "e99b9b401f998176",
+  "name" : "M-5.1 - Étlap bejárása1",
+  "time" : {
+    "start" : 1629560418457,
+    "stop" : 1629560440117,
+    "duration" : 21660
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebef4434fb8cc250",
+  "name" : "M-11 - Kijelentkezés",
+  "time" : {
+    "start" : 1629560397162,
+    "stop" : 1629560401114,
+    "duration" : 3952
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c44cf5167e37a3eb",
+  "name" : "M-7 - Fájlban összeírt rendelés feladása",
+  "time" : {
+    "start" : 1629560506200,
+    "stop" : 1629560520122,
+    "duration" : 13922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef30f3fe1fb80108",
+  "name" : "M-1 - Regisztráció",
+  "time" : {
+    "start" : 1629560389052,
+    "stop" : 1629560393233,
+    "duration" : 4181
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f2251af34f4eb46",
+  "name" : "M-6 - Rendelés",
+  "time" : {
+    "start" : 1629560463590,
+    "stop" : 1629560469833,
+    "duration" : 6243
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "955f747ba2d391c5",
+  "name" : "M-5.2 - Étlap bejárása2",
+  "time" : {
+    "start" : 1629560440130,
+    "stop" : 1629560463583,
+    "duration" : 23453
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "62dcef6c8ae5bb99",
+  "name" : "M-9 - Rendelés módosítása",
+  "time" : {
+    "start" : 1629560483737,
+    "stop" : 1629560495078,
+    "duration" : 11341
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d6f2059230869ef3",
+  "name" : "M-2 - Bejelentkezés",
+  "time" : {
+    "start" : 1629560393337,
+    "stop" : 1629560397154,
+    "duration" : 3817
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e19ca4ac9675e84b",
+  "name" : "M-8 Rendelési adat mentése fájlba",
+  "time" : {
+    "start" : 1629560495081,
+    "stop" : 1629560506197,
+    "duration" : 11116
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c0077e81c7f223b",
+  "name" : "M-4 - Listázás",
+  "time" : {
+    "start" : 1629560404748,
+    "stop" : 1629560418453,
+    "duration" : 13705
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5272b1daec3a20a3",
+  "name" : "M-3 - Adatkezelési Nyilatkozat",
+  "time" : {
+    "start" : 1629560401118,
+    "stop" : 1629560404744,
+    "duration" : 3626
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf437b079649aa6c",
+  "name" : "M-10 - Rendelés törlése",
+  "time" : {
+    "start" : 1629560469836,
+    "stop" : 1629560483734,
+    "duration" : 13898
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

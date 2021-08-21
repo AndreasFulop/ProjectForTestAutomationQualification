@@ -1,0 +1,197 @@
+{
+  "uid" : "62dcef6c8ae5bb99",
+  "name" : "M-9 - Rendelés módosítása",
+  "fullName" : "TestPage.testOrderDessertThenModify",
+  "historyId" : "9c6720e6695706d8f84e4ff9d47306ee",
+  "time" : {
+    "start" : 1629560483737,
+    "stop" : 1629560495078,
+    "duration" : 11341
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629560388632,
+      "stop" : 1629560388985,
+      "duration" : 353
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629560483737,
+      "stop" : 1629560483896,
+      "duration" : 159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629560495007,
+      "stop" : 1629560495078,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-516"
+  }, {
+    "name" : "thread",
+    "value" : "4468@fv-az28-516.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOrderDessertThenModify"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "e48be26b77db7803",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/9//#testresult/e48be26b77db7803",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629559747168,
+          "stop" : 1629559790797,
+          "duration" : 43629
+        }
+      }, {
+        "uid" : "ab053f58ef9bba87",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/8//#testresult/ab053f58ef9bba87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558174101,
+          "stop" : 1629558188618,
+          "duration" : 14517
+        }
+      }, {
+        "uid" : "d8344acae695422c",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/7//#testresult/d8344acae695422c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629556957725,
+          "stop" : 1629556972637,
+          "duration" : 14912
+        }
+      }, {
+        "uid" : "b4f33fa31d6e91fe",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/6//#testresult/b4f33fa31d6e91fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629553411668,
+          "stop" : 1629553426632,
+          "duration" : 14964
+        }
+      }, {
+        "uid" : "9f9b0ab3d8cbb0f5",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/5//#testresult/9f9b0ab3d8cbb0f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629552795422,
+          "stop" : 1629552806665,
+          "duration" : 11243
+        }
+      }, {
+        "uid" : "c3ec4662251a30d3",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/4//#testresult/c3ec4662251a30d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551707716,
+          "stop" : 1629551719146,
+          "duration" : 11430
+        }
+      }, {
+        "uid" : "d06823b8329af182",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/3//#testresult/d06823b8329af182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629550977455,
+          "stop" : 1629550989749,
+          "duration" : 12294
+        }
+      }, {
+        "uid" : "795eff31751c1850",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/2//#testresult/795eff31751c1850",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629201162852,
+          "stop" : 1629201178693,
+          "duration" : 15841
+        }
+      }, {
+        "uid" : "ad74b3d841ddfc3",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/ad74b3d841ddfc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629200587578,
+          "stop" : 1629200600155,
+          "duration" : 12577
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "62dcef6c8ae5bb99.json",
+  "parameterValues" : [ ]
+}
