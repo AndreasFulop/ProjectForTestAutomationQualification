@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "M-1 - Regisztráció",
+    "uid" : "81f44428d7915ed0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629558059053,
+      "stop" : 1629558072418,
+      "duration" : 13365
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-2 - Bejelentkezés",
+    "uid" : "e499709b24069724",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558072534,
+      "stop" : 1629558078078,
+      "duration" : 5544
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-11 - Kijelentkezés",
+    "uid" : "4ebb679359f56fb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558078082,
+      "stop" : 1629558084150,
+      "duration" : 6068
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-3 - Adatkezelési Nyilatkozat",
+    "uid" : "654154eab1ede0aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558084153,
+      "stop" : 1629558088912,
+      "duration" : 4759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-4 - Listázás",
+    "uid" : "164e1188e9fe2e19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558088915,
+      "stop" : 1629558103699,
+      "duration" : 14784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-5.1 - Étlap bejárása1",
+    "uid" : "809e0b0a56961d43",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1629558103702,
+      "stop" : 1629558118467,
+      "duration" : 14765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-5.2 - Étlap bejárása2",
+    "uid" : "53701f0f3703152a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1629558118482,
+      "stop" : 1629558147984,
+      "duration" : 29502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-6 - Rendelés",
+    "uid" : "3e84b93c84b493a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558147989,
+      "stop" : 1629558157234,
+      "duration" : 9245
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-10 - Rendelés törlése",
+    "uid" : "db5e39be51e1abcb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558157237,
+      "stop" : 1629558174098,
+      "duration" : 16861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-9 - Rendelés módosítása",
+    "uid" : "ab053f58ef9bba87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558174101,
+      "stop" : 1629558188618,
+      "duration" : 14517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-8 Rendelési adat mentése fájlba",
+    "uid" : "aac7aba6df17401b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558188621,
+      "stop" : 1629558203206,
+      "duration" : 14585
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "M-7 - Fájlban összeírt rendelés feladása",
+    "uid" : "26fe0727addd4367",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629558203208,
+      "stop" : 1629558221004,
+      "duration" : 17796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
