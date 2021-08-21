@@ -1,0 +1,209 @@
+{
+  "uid" : "de8d0549b6760bf2",
+  "name" : "M-7 - Fájlban összeírt rendelés feladása",
+  "fullName" : "TestPage.testOrderFromFile",
+  "historyId" : "103e89cd4450ea3bce999d7d9a45cb4f",
+  "time" : {
+    "start" : 1629561273658,
+    "stop" : 1629561288627,
+    "duration" : 14969
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629561273659,
+      "stop" : 1629561273828,
+      "duration" : 169
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629561160184,
+      "stop" : 1629561160706,
+      "duration" : 522
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1629561288555,
+      "stop" : 1629561288627,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-516"
+  }, {
+    "name" : "thread",
+    "value" : "4293@fv-az28-516.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestPage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOrderFromFile"
+  }, {
+    "name" : "suite",
+    "value" : "TestPage"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "c44cf5167e37a3eb",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/10//#testresult/c44cf5167e37a3eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629560506200,
+          "stop" : 1629560520122,
+          "duration" : 13922
+        }
+      }, {
+        "uid" : "4f7a8113d509f22d",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/9//#testresult/4f7a8113d509f22d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629559805467,
+          "stop" : 1629559830041,
+          "duration" : 24574
+        }
+      }, {
+        "uid" : "26fe0727addd4367",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/8//#testresult/26fe0727addd4367",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629558203208,
+          "stop" : 1629558221004,
+          "duration" : 17796
+        }
+      }, {
+        "uid" : "fe9f38cc86f944be",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/7//#testresult/fe9f38cc86f944be",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0398287;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.c6aeBo}, goog:chromeOptions: {debuggerAddress: localhost:38237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8406e214b5a9c52e5490d3ea3f32be83",
+        "time" : {
+          "start" : 1629556985821,
+          "stop" : 1629556998895,
+          "duration" : 13074
+        }
+      }, {
+        "uid" : "c4276656759baaaa",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/6//#testresult/c4276656759baaaa",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0295181;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-941', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.60UnzR}, goog:chromeOptions: {debuggerAddress: localhost:37137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 60485dcb37930640d9ef368a7c44835b",
+        "time" : {
+          "start" : 1629553440768,
+          "stop" : 1629553453453,
+          "duration" : 12685
+        }
+      }, {
+        "uid" : "c9e761c87b6e4cfc",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/5//#testresult/c9e761c87b6e4cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629552817228,
+          "stop" : 1629552831169,
+          "duration" : 13941
+        }
+      }, {
+        "uid" : "2633d7c86eea454",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/4//#testresult/2633d7c86eea454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551729772,
+          "stop" : 1629551743647,
+          "duration" : 13875
+        }
+      }, {
+        "uid" : "95f4efc691d477d8",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/3//#testresult/95f4efc691d477d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629551001555,
+          "stop" : 1629551016300,
+          "duration" : 14745
+        }
+      }, {
+        "uid" : "35bb9f256c79d4a4",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/2//#testresult/35bb9f256c79d4a4",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0525376;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-831', ip: '10.1.0.240', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.YdyV5p}, goog:chromeOptions: {debuggerAddress: localhost:34999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 86b5431185365c08ca9752d6ecfe4b81",
+        "time" : {
+          "start" : 1629201193917,
+          "stop" : 1629201207551,
+          "duration" : 13634
+        }
+      }, {
+        "uid" : "949403d0e0d48d9f",
+        "reportUrl" : "https://AndreasFulop.github.io/ProjectForTestAutomationQualification/1//#testresult/949403d0e0d48d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629200611647,
+          "stop" : 1629200627570,
+          "duration" : 15923
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "de8d0549b6760bf2.json",
+  "parameterValues" : [ ]
+}

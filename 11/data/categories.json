@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Italok]>",
+      "children" : [ {
+        "name" : "M-5.1 - Étlap bejárása1",
+        "uid" : "40c48f02203c3dfb",
+        "parentUid" : "43dc0ef85a828904071b5fae6b3f061b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629561186975,
+          "stop" : 1629561210179,
+          "duration" : 23204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43dc0ef85a828904071b5fae6b3f061b"
+    }, {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]>",
+      "children" : [ {
+        "name" : "M-5.2 - Étlap bejárása2",
+        "uid" : "8661ffa7f881a1b7",
+        "parentUid" : "419209fb858c30c5e853aea101f038e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629561210205,
+          "stop" : 1629561234508,
+          "duration" : 24303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "419209fb858c30c5e853aea101f038e2"
+    }, {
+      "name" : "expected: <> but was: <2db Aranygaluska>",
+      "children" : [ {
+        "name" : "M-10 - Rendelés törlése",
+        "uid" : "76194a80676f4320",
+        "parentUid" : "d60d6bb26faf5108da621f1edc91d445",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629561241583,
+          "stop" : 1629561249809,
+          "duration" : 8226
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d60d6bb26faf5108da621f1edc91d445"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
