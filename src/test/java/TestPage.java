@@ -160,6 +160,7 @@ public class TestPage {
         Menu menu = new Menu(driver);
         menu.orderDessert("Aranygaluska", 2);
         menu.deleteBasket();
+        Thread.sleep(500);
         String expected2 = "";
         String actual2 = menu.seeBasket();
         Assertions.assertEquals(expected2, actual2);
