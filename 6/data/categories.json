@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".profile_name\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-941', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.h0VhMA}, goog:chromeOptions: {debuggerAddress: localhost:37365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ba36bdb99b89e38f1ce384597f71651a\n*** Element info: {Using=class name, value=profile_name}",
+      "children" : [ {
+        "name" : "M-1 - Regisztráció",
+        "uid" : "3d891b9abedd96fd",
+        "parentUid" : "e1a3dcead8ff8aa5ef25f50980a227dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629553284166,
+          "stop" : 1629553297800,
+          "duration" : 13634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1a3dcead8ff8aa5ef25f50980a227dd"
+    }, {
+      "name" : "element click intercepted: Element <img onclick=\"javascript: ShowGreyBasket();\" src=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\" style=\"cursor:pointer;position:fixed;right:0;top:152px;width:auto;\" original=\"/webshop/megamegallo/images/pizzeriaimg/megamegallo_kosar.png\"> is not clickable at point (1172, 186). Other element would receive the click: <div id=\"billadd_content_bg\" style=\"display: block; opacity: 0.0295181;\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-941', ip: '10.1.1.87', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.60UnzR}, goog:chromeOptions: {debuggerAddress: localhost:37137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 60485dcb37930640d9ef368a7c44835b",
+      "children" : [ {
+        "name" : "M-7 - Fájlban összeírt rendelés feladása",
+        "uid" : "c4276656759baaaa",
+        "parentUid" : "6c0a2c86259ae820e2600135fe06763b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629553440768,
+          "stop" : 1629553453453,
+          "duration" : 12685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c0a2c86259ae820e2600135fe06763b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Italok]>",
+      "children" : [ {
+        "name" : "M-5.1 - Étlap bejárása1",
+        "uid" : "321d518116014902",
+        "parentUid" : "43dc0ef85a828904071b5fae6b3f061b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629553329699,
+          "stop" : 1629553354877,
+          "duration" : 25178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43dc0ef85a828904071b5fae6b3f061b"
+    }, {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]>",
+      "children" : [ {
+        "name" : "M-5.2 - Étlap bejárása2",
+        "uid" : "711fecf0948e2b10",
+        "parentUid" : "419209fb858c30c5e853aea101f038e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629553354886,
+          "stop" : 1629553385327,
+          "duration" : 30441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "419209fb858c30c5e853aea101f038e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
