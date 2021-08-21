@@ -6,10 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -202,6 +199,18 @@ public class TestPage {
         FileWriter myWriter = new FileWriter("menu.txt");
         myWriter.write(orderList);
         myWriter.close();
+        Thread.sleep(200);
+        int expected = 3;
+        int actual = 0;
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader("menu.txt"));
+            while (reader.readLine() != null) actual++;
+            reader.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -248,7 +257,7 @@ public class TestPage {
         registration.registrating();
         Thread.sleep(2000);
         String actual = mainPage.getUserName();
-        Assertions.assertEquals("Fülöp András", actual);
+        Assertions.assertEquals("Test Customer", actual);
     }
 
     @Test
@@ -263,7 +272,7 @@ public class TestPage {
         loginPage.login();
         Thread.sleep(200);
         String actual = mainPage.getUserName();
-        Assertions.assertEquals("Fülöp András", actual);
+        Assertions.assertEquals("Test Customer", actual);
     }
 
     @Test

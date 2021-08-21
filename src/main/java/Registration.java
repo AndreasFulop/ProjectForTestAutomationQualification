@@ -19,7 +19,7 @@ public class Registration {
 
     public void registrating() {
         Util util = new Util(driver);
-        write(EMAIL_FIELD, "natan78@freemail.hu");
+        write(EMAIL_FIELD, "natan7878@freemail.hu");
         write(PASSWORD_FIELD, "Coool123");
         write(NAME_FIELD, "Test Customer");
         write(PHONE_FIELD, "20/1234567");
