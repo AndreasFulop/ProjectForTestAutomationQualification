@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Akció, Italok]>",
+      "children" : [ {
+        "name" : "M-5.1 - Étlap bejárása1",
+        "uid" : "30611d9f6b93858c",
+        "parentUid" : "43dc0ef85a828904071b5fae6b3f061b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629563571383,
+          "stop" : 1629563595641,
+          "duration" : 24258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43dc0ef85a828904071b5fae6b3f061b"
+    }, {
+      "name" : "expected: <[Akció, Hamburgerek, Papucs szendvicsek, Levesek, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]> but was: <[Akció, Hamburgerek, Papucs szendvicsek, Jelenleg nincsen, Főételek, Tészták, Töltött húsok, Vaslapon sült ételek, Tálak, Tortillák, Hot Dogok, Saláták, Köretek, Desszertek, Öntetek, Italok]>",
+      "children" : [ {
+        "name" : "M-5.2 - Étlap bejárása2",
+        "uid" : "29a6f35d1e5d892c",
+        "parentUid" : "419209fb858c30c5e853aea101f038e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629563595654,
+          "stop" : 1629563625000,
+          "duration" : 29346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "419209fb858c30c5e853aea101f038e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
