@@ -18,6 +18,7 @@ public class MainPage {
 
     private final By LOGGED_USERNAME = By.className("profile_name");
     private final By BELEPES_BUTTON = By.id("mli_animated_link_login");
+    private final By LOGGED_IN_AFTER_REGISTRATING = By.className("user_belepve_mm");
 
 
     public void clickCookie() {
@@ -57,5 +58,10 @@ public class MainPage {
     public String getLoginText() {
         Util util = new Util(driver);
         return util.getText(BELEPES_BUTTON);
+    }
+
+    public String getRegistratedUserName() {
+        Util util = new Util(driver);
+        return util.getText(LOGGED_IN_AFTER_REGISTRATING);
     }
 }

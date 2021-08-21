@@ -95,6 +95,7 @@ public class Menu {
 
     public String seeBasket() throws InterruptedException{
         Util util = new Util(driver);
+        Thread.sleep(200);
         util.click(BASKET);
         Thread.sleep(300);
         List<WebElement> tablerows = util.finds(TABLEROWS_IN_BASKET);
