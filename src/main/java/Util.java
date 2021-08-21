@@ -20,11 +20,6 @@ public class Util {
         return driver.findElement(by).getText();
     }
 
-    public String getText(WebElement webElement) {
-        return webElement.getText();
-    }
-
-
     public List<WebElement> finds (By by) {
         return driver.findElements(by);
     }

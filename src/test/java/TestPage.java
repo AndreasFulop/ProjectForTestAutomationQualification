@@ -245,16 +245,19 @@ public class TestPage {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @Disabled
     @DisplayName("M-1 - Regisztráció")
     @Order(1)
     @Severity(SeverityLevel.CRITICAL)
-    public void testRegistration() {
+    public void testRegistration() throws InterruptedException{
         MainPage mainPage = new MainPage(driver);
         mainPage.clickCookie();
         mainPage.clickRegistration();
         Registration registration = new Registration(driver);
         registration.registrating();
+        Thread.sleep(200);
+        String actual = mainPage.getUserName();
+        Assertions.assertEquals("Test Customer", actual);
     }
 
     @Test

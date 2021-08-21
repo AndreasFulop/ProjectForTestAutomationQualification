@@ -14,7 +14,7 @@ public class LoginPage {
 
     public void login() {
         Util util = new Util(driver);
-        write(EMAIL_FIELD, "natan78@freemail.hu");
+        write(EMAIL_FIELD, "natan797979797878@freemail.hu");
         write(PASSWORD_FIELD, "Coool123");
         util.click(CONFIRM_LOGIN);
     }
